@@ -1,0 +1,132 @@
+body
+   {
+	background: url("../images/iWBk7rH.jpg") no-repeat center center fixed;
+	background-size: cover;
+	 font-family: 'Lato', sans-serif;
+
+   }
+.overlay {
+	z-index: 1;
+	height: 1560px;
+	width: 1885px;
+	position: static;
+	overflow: auto;
+	top: 0px;
+	left: 0px;
+	background:rgba(235,235,235,0.22);
+	bottom: 200px;
+	border-radius: 20px;
+	background-size: cover;
+	-webkit-box-shadow: inset 0px 0px 50px 0px;
+	box-shadow: inset 0px 0px 50px 0px;
+	text-shadow: 0px 0px 0px;
+	 font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	word-spacing: 0px;
+	vertical-align: baseline;
+	overflow-x: visible;
+	padding-top: 0px;
+	margin-left: 0px;
+		}
+.form
+{
+	margin-top: 20px;
+	position: absolute;
+	
+	font-size: 20px;
+	margin-left: 20px;
+	 font-family: 'Lato', sans-serif;
+	text-shadow: px 0px;
+}
+.form input
+{
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 2px solid black;
+	border-radius: 8px;
+	font-size: .9em;
+	color: black;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.40), 0 6px 10px 0 rgba(11,11,11,0.87);
+	margin-left: 0px;
+}
+textarea
+{   color: black;
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 2px solid black;
+	border-radius: 8px;
+	font-size: .9em;
+	margin-left: 0px;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.40), 0 6px 10px 0 rgba(11,11,11,0.87);
+  font-family: 'Lato', sans-serif;
+}
+
+h1
+{
+	color:  #FFFFFF;
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	margin-left: 20px;
+	line-height: normal;
+}
+ 
+input
+	{
+		border: 2px solid black;
+    padding: 2px;
+      font-family: 'Lato', sans-serif;
+    
+	}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: static;
+	width: 100%;
+	top: 0px;
+	 font-family: 'Lato', sans-serif;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left:0px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.but {
+}
+
+button
+{
+	background-color: #3B3737;
+	border: 2px solid #0E0D0D;
+	border-radius: 10px;
+	color: white;
+	padding: 12px 40px;
+	text-decoration: none;
+	margin-top: 4px;
+	margin-right: 120px;
+	margin-left: 40px;
+	margin-bottom: 4px;
+	cursor: pointer;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+	font-size: 20px;
+	 font-family: 'Lato', sans-serif;
+}

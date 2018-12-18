@@ -1,0 +1,114 @@
+select
+	{
+	width: 30%;
+	padding: 13px 10px;
+	margin-top: 8px;
+	margin-right: 0;
+	margin-left: 20px;
+	margin-bottom: 8px;
+	border:2px #000000;
+	border-radius: 8px;
+	background-color: #f1f1f1;
+	box-shadow: 0px 8px 20px 4px rgba(0,0,0,0.91);
+	text-shadow: 0px 0px;
+     font-family: 'Lato', sans-serif;
+}
+
+
+button[type=submit] 
+{
+    background-color: #555555;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 4px 120px;
+    cursor: pointer;
+     font-family: 'Lato', sans-serif;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.47), 0 6px 10px 0 rgba(0,0,0,0.46);
+
+}
+
+
+
+
+body
+{
+	background: url("../images/iWBk7rH.jpg") no-repeat center center fixed;
+	background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: static;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(229,224,224,0.39);
+    border-radius: 20px;
+    bottom: 200px;
+    right: px;
+    webkit-box-shadow: inset 0px 0px 50px 0px;
+    box-shadow: inset 0px 0px 80px 0px;
+    text-shadow: 0px 0px 0px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    word-spacing: 0px;
+    vertical-align: baseline;
+    overflow-x: visible;
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: static;
+    width: 100%;
+    top: 0px;
+     font-family: 'Lato', sans-serif;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.but {
+}
+
+h1
+{
+    color: #FFFFFF;
+    font-size: 50px;
+	margin-left: 20px;
+    text-shadow: 20px 18px rgba(9,8,8,0.76),0 6px 10px 0 rgba(0,0,0,0.19);
+    font-family: 'Roboto Slab', serif;
+    }
